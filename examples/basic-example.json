@@ -1,0 +1,9 @@
+{
+    "name": "basic-example",
+    "config": {
+        "connector.class": "com.acme.kafka.connect.sample.SampleSourceConnector",
+        "first.required.param": "Kafka",
+        "second.required.param": "Connect",
+        "tasks.max": "1"
+    }
+}
