@@ -40,7 +40,9 @@ public class SourceMonitorThread extends Thread {
                     // Here something should be done to update
                     // the list of available sources that the
                     // method 'getCurrentSources()' will return.
-                    context.requestTaskReconfiguration();
+                    if (context != null) {
+                        context.requestTaskReconfiguration();
+                    }
                 }
                 // The hard-coded timeout below of ten seconds should
                 // be one of the parameters provided in the connector.
