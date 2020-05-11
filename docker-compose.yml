@@ -3,7 +3,7 @@
     
     services:
       zookeeper:
-        image: confluentinc/cp-zookeeper:5.4.0
+        image: confluentinc/cp-zookeeper:5.5.0
         hostname: zookeeper
         container_name: zookeeper
         ports:
@@ -13,7 +13,7 @@
           ZOOKEEPER_TICK_TIME: 2000
     
       kafka:
-        image: confluentinc/cp-enterprise-kafka:5.4.0
+        image: confluentinc/cp-enterprise-kafka:5.5.0
         hostname: kafka
         container_name: kafka
         depends_on:
@@ -31,7 +31,7 @@
           CONFLUENT_SUPPORT_CUSTOMER_ID: 'anonymous'
 
       connect:
-        image: confluentinc/cp-kafka-connect:5.4.0
+        image: confluentinc/cp-kafka-connect:5.5.0
         hostname: connect
         container_name: connect
         depends_on:

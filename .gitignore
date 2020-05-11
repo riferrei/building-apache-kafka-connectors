@@ -5,6 +5,7 @@
 *.log
 
 # VS Code
+.vscode
 .settings
 .classpath
 .project
