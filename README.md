@@ -1,12 +1,12 @@
 # Kafka Connect Sample Connector
 
-This repo contains a sample project that can be used to start off your own source connector for Kafka Connect.
+This repository contains a sample project that can be used to start off your own source connector for Kafka Connect.
 
 ## Building the connector
 
-The first thing you need to do to start using this connector is building it. In order to do that, you need to install the following dependencies:
+The first thing you need to do to start using this connector is built it. To do that, you need to install the following dependencies:
 
-- [Java 1.8+](https://openjdk.java.net/)
+- [Java 11+](https://openjdk.java.net/)
 - [Apache Maven](https://maven.apache.org/)
 
 After installing these dependencies, execute the following command:
@@ -17,7 +17,7 @@ mvn clean package
 
 ## Trying the connector
 
-After building the connector you can try it by using the Docker-based installation from this repository.
+After building the connector, you can try it by using the Docker-based installation from this repository.
 
 ### 1 - Starting the environment
 
